@@ -4,32 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/materialize.css">
-    <link rel="stylesheet" href="./js/materialize.js">
+    <link rel="stylesheet" href="./font/HoratioD/HORATIOM.TTF">
     <title> LOGIN </title>
 </head>
 
 <body>
     <div class="light-blue lighten-4">
         <main>
-            <h1 class="center pink-text"> Orkut </h1>
+
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m12 l6 offset-l3">
+                    <div class="col s12 m8 l6 offset-l3">
                         <form>
+
                             <div class="card blue-grey lighten-5">
                                 <div class="card-content black-text">
-                                    <span class="card-title">E-mail</span>
+                                    <h1 class="center pink-text text"> orkut </h1>
                                     <div class="input-field col s12">
                                         <input id="username" type="text" class="validate">
+                                        <label class="active" for="Email">E-mail</label>
                                     </div>
-
-                                    <span class="card-title">Senha</span>
                                     <div class="input-field col s12">
                                         <input id="username" type="password" class="validate">
+                                        <label class="active" for="Senha">Senha</label>
                                     </div>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" />
+                                            <span>Mantenha-me conectado</span>
+                                        </label>
+                                    </p>
                                     <div class="row center">
                                         <a class="waves-effect pink btn">Entrar</a>
+
+                                        <div class="pink-text pass">
+                                            <i class="tiny">Criar nova conta</i>
+                                        </div>
+                                        <div class="pink-text ">
+                                            <i class="tiny">Esqueci minha senha</i>
+                                        </div>
+
+                                        <button class="btn waves-effect deep-orange darken-4 " id="btn-google" type="submit" name="action">
+                                            <a id="btn-google">Entrar com Gmail</a>
+                                          </button>
                                     </div>
                                 </div>
 
@@ -42,9 +61,16 @@
     </main>
 
     <footer>
+        <div class="footer  page-footer pink">
+            <i class="tiny">Inicio</i>
+            <i class="tiny">Termos</i>
+            <i class="tiny">Política de Privacidade</i>
+            <i class="tiny">Ajuda</i>
+
+
     </footer>
     </div>
-
+    <link rel="stylesheet" href="./js/materialize.js">
 </body>
 
 </html>

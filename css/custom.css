@@ -1,0 +1,33 @@
+i {
+    font-weight: 800;
+}
+
+.pass {
+    margin-top: 15px;
+}
+
+#btn-google {
+    color: #fff;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: 'orkut';
+    src: url('../font/HoratioD/HORATIOM.TTF') format('truetype');
+}
+
+.text {
+    font-family: orkut;
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    height: 53px;
+}

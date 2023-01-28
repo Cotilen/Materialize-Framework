@@ -4,12 +4,6 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .materialize-red {
     background-color: #e51c23 !important;
 }
@@ -3627,7 +3621,6 @@ table span.badge {
 .row {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
 }
 
 .row:after {
@@ -4712,7 +4705,7 @@ h6 a {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 5rem;
     line-height: 110%;
     margin: 0rem 0 1.68rem 0;
 }
@@ -4940,7 +4933,7 @@ small {
     transition: box-shadow .25s;
     transition: box-shadow .25s, -webkit-box-shadow .25s;
     border-radius: 2px;
-    height: 500px;
+    height: 550px;
 }
 
 .card .card-title {
@@ -5870,14 +5863,13 @@ body.keyboard-focused .dropdown-content li:focus {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
     -webkit-tap-highlight-color: transparent;
     vertical-align: middle;
     z-index: 1;
     -webkit-transition: .3s ease-out;
     transition: .3s ease-out;
-    width: 350px;
-    margin-top: 30px;
+    width: 300px;
+    margin-top: 40px;
 }
 
 .waves-effect .waves-ripple {
@@ -7149,7 +7141,6 @@ textarea.materialize-textarea {
     display: inline-block;
     height: 25px;
     line-height: 25px;
-    font-size: 1rem;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -7161,6 +7152,7 @@ textarea.materialize-textarea {
     content: '';
     position: absolute;
     top: 0;
+    margin-left: 10px;
     left: 0;
     width: 18px;
     height: 18px;
