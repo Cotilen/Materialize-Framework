@@ -36,7 +36,7 @@ utilizando o framework sorteado durante a aula (Metaralize)
 
 | MOBILE                                     |             DESKTOP             |
 | :----------------------------------------- | :-----------------------------: |
-| <a href="https://cotilen.github.io/Materializa-Framework/"><img heigth="500" src="./img/mobile.jpeg"/></a> | <a href="https://cotilen.github.io/Materializa-Framework/"><img src="./img/desktop.jpeg" /></a> |
+| <a href="https://cotilen.github.io/Materialize-Framework/"><img heigth="500" src="./img/mobile.jpeg"/></a> | <a href="https://cotilen.github.io/Materialize-Framework/"><img src="./img/desktop.jpeg" /></a> |
 
    <img heigth="600" src="./img/logo.png" align="left" width="40" align="center"/>
    <h1>TECNOLOGIAS APLICADAS</h1>   
@@ -50,7 +50,7 @@ utilizando o framework sorteado durante a aula (Metaralize)
 <img src="./img/logo.png" align="left" width="40" align="center"/>
 <h1>FERRAMENTAS</h1> 
        <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=vscode,github,git,figma,html,css,tailwind&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=vscode,github,git,figma,html,css&theme=dark" />
     </a>
 </div>
 
