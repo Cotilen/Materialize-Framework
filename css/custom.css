@@ -25,9 +25,21 @@ button {
     font-weight: bolder;
 }
 
+main {
+    display: inline;
+    align-items: center;
+    align-self: center;
+    height: 95vh;
+}
+
+.custom {
+    margin-top: 20vh;
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
     align-self: center;
-    height: 53px;
+    align-items: center;
+    height: 5vh;
 }
