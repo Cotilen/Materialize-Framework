@@ -5868,7 +5868,7 @@ body.keyboard-focused .dropdown-content li:focus {
     z-index: 1;
     -webkit-transition: .3s ease-out;
     transition: .3s ease-out;
-    width: 300px;
+    width: 80%;
     margin-top: 40px;
 }
 
