@@ -3588,6 +3588,9 @@ table span.badge {
     .container {
         width: 85%;
     }
+    .row {
+        height: 100vh;
+    }
 }
 
 @media only screen and (min-width: 993px) {
@@ -9416,5 +9419,11 @@ input[type=range]::-ms-thumb {
         bottom: auto;
         text-align: center;
         margin-top: 1.2rem;
+    }
+    main {
+        height: 95vh;
+    }
+    footer {
+        height: 5vh;
     }
 }

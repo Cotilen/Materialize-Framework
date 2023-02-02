@@ -43,3 +43,9 @@ main {
     align-items: center;
     height: 5vh;
 }
+
+@media (max-width:640px) {
+    .custom {
+        margin-top: 0;
+    }
+}
